@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./swimmingpool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+img{
+    width: 300px;
+    animation: car 6s linear  infinite alternate;
+    position: absolute;
+    bottom: 0px;
+}
+
+@keyframes car {
+    from{
+        margin-left: calc(100%-300px);
+    }to{
+       margin-left: 0%;
+    }
+}
